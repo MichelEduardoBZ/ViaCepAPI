@@ -1,0 +1,38 @@
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal-container.active{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-box{
+    align-items: center;
+    background-color: #444;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    padding: 20px;
+    width: 100%;
+}
+
+.modal-content{
+    color: #FFF;
+    margin-bottom: 40PX;
+}
+
+.modal-content p{
+    margin-bottom: 10px;
+}
