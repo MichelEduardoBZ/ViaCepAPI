@@ -5,7 +5,7 @@
 
 <h2>Tela inicial<h2>
 
-![Imagem da tela](image.png)
+![Imagem da tela](imgs/Screen.png)
 </br>
 
 <h2>Modal</h2>
